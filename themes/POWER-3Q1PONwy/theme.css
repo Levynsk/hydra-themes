@@ -1,0 +1,83 @@
+.sidebar,
+.header,
+.container__content,
+.bottom-panel {
+  background: transparent;
+}
+
+body {
+  color: #ffffff;
+}
+
+#root {
+  background: url(https://images.alphacoders.com/127/1277674.jpg) transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.text-field-container__text-field--dark,
+.text-field-container__text-field--primary,
+.header__search,
+.game-item,
+.settings__content,
+.catalogue__filters-container,
+.friends-box__box,
+.user-stats__box,
+.recent-games__box,
+.sidebar {
+  background: rgba(00, 00, 00, 0.25) !important; 
+}
+
+.button--primary {
+    background-color: #c84d64;
+    color: #FFFFFF;
+  }
+
+  .button--primary:hover {
+    background-color: #c3544b;
+  }
+
+  .badge {
+    background-color: rgba(00, 00, 00, 0.55);
+  }
+
+  .filter-item {
+    background-color: rgba(00, 00, 00, 0.55);
+  }
+
+  .sidebar-profile__friends-button {
+   background-color: rgba(00, 00, 00, 0.25);
+  }
+
+  .sidebar-profile__friends-button:hover {
+    background-color: rgba(00, 00, 00, 0.60);
+  }
+
+  .sidebar-profile__button:hover {
+    background-color: rgba(00, 00, 00, 0.25);
+    border-radius: 8px;
+  }
+
+  .sidebar__menu-item--active {
+    border-radius: 6px;
+    background-color: rgba(00, 00, 00, 0.50);;
+  }
+  
+::-webkit-scrollbar {
+  width: 9px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(00, 00, 00, 0.25);
+  border-radius: 24px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(200, 77, 100, 0.60);
+}
